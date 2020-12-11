@@ -12,7 +12,7 @@ def _load_kv_conf(fn):
     return conf
 
 
-def load_conf(secret_file="secrets.txt", discord_file="discord.conf"):
+def load_conf(secret_file="secrets.conf", discord_file="discord.conf"):
     """ load config from files, and return as dict"""
     c = {}
     try:
