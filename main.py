@@ -30,7 +30,7 @@ def main():
     cmds = commands.Commands(t)
 
     # create and start the discord listener
-    c = channel_io.EncouterClient(conf['channel_name'], cmds)
+    c = channel_io.EncouterClient(conf['guild_name'], cmds)
     c.run(conf['bot_token'])
 
 

@@ -1,7 +1,6 @@
 # things not to commit
 secrets.conf
-aws_test.conf
-discord.conf
+aws.conf
 .idea
 __pycache__
 venv

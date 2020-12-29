@@ -57,7 +57,7 @@ class TestingTable(Table):
 
 # Yoinked from AWS sample
 # use our local AWS config file instead
-os.environ["AWS_CONFIG_FILE"] = os.path.join(os.path.curdir, "aws_test.conf")
+os.environ["AWS_CONFIG_FILE"] = os.path.join(os.path.curdir, "aws.conf")
 logging.info("config file path: ", os.environ["AWS_CONFIG_FILE"])
 s3_resource = boto3.resource('s3')
 
