@@ -2,3 +2,6 @@
 secrets.conf
 aws_test.conf
 discord.conf
+.idea
+__pycache__
+venv
