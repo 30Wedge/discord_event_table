@@ -40,6 +40,7 @@ class Commands:
 
     def __init__(self):
         """set up state required for commands"""
+        # TODO make this threadsafe?
         self.encounter_table = {}
         self.cmd_table = {
             "build_table": self.build_table,
